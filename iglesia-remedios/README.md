@@ -14,6 +14,18 @@ pnpm dev
 bun dev
 ```
 
+### Configure PostgreSQL
+
+Copy `.env.example` to `.env.local` and edit the connection string to match your
+PostgreSQL setup:
+
+```
+DATABASE_URL=postgresql://user:password@localhost:5432/iglesia
+```
+
+The sample API route at `/api/dbtest` queries the database for the current time.
+Ensure PostgreSQL is running before starting the development server.
+
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
