@@ -20,13 +20,7 @@ const Navbar: React.FC = () => {
   }, []);
 
   return (
-    <nav
-      className={`${
-        scrolled
-          ? "bg-white/80 shadow-lg py-6"
-          : "bg-transparent py-3"
-      } fixed top-0 left-0 w-full flex items-center justify-between px-8 text-yellow-600 transition-all duration-300 backdrop-blur`}
-    >
+
       <div className="font-cinzel font-bold text-2xl">Iglesia Remedios</div>
 
       <ul className="flex space-x-6 font-cinzel">
