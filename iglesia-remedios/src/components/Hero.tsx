@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="relative w-full h-[60vh] md:h-[80vh] mt-[-50px] z-10">
+    <div className="relative w-full min-h-[120dvh] md:h-[80vh] z-10">
       <Image
         src="/hero.webp"
         alt="hero"
