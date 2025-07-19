@@ -10,7 +10,7 @@ const NavLinks = [
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="flex items-center justify-between px-8 py-4 bg-transparent text-yellow-600">
+    <nav className="flex items-center justify-between text-amber-800 font-bold text-lg select-none bg-transparent z-50">
       <div className="font-cinzel font-bold text-2xl">Iglesia Remedios</div>
 
       <ul className="flex space-x-6 font-cinzel">
