@@ -3,8 +3,8 @@ import React from "react";
 const NavLinks = [
   { name: "Inicio", href: "/" },
   { name: "Sobre Nosotros", href: "/about" },
-  { name: "Eventos", href: "/events" },
-  { name: "Contacto", href: "/contact" },
+  { name: "Miembros", href: "#miembros" },
+  { name: "Noticias", href: "#noticias" },
 ];
 
 const Navbar: React.FC = () => {
